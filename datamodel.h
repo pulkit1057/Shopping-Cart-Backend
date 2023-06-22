@@ -52,7 +52,7 @@ public:
 
     string getItemInfo()
     {
-        return to_string(quantity) + " * " + product.name + ": Rs " + to_string(quantity*product.price);
+        return to_string(quantity) + " * " + product.name + ": Rs " + to_string(quantity*product.price) + '\n';
     }
     friend class Cart;
 };
